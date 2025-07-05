@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text("Flutter Practice"),
       ),
-      body: ElevatedButton(
+      body: OutlinedButton(
         child: Text("Click Here"),
         onPressed: (){
           print("Text Button Pressed!");
