@@ -67,6 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
         height: 100,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text("A", style: TextStyle(fontSize: 25),),
             Text("B", style: TextStyle(fontSize: 25),),
