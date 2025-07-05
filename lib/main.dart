@@ -69,6 +69,16 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text("R1", style: TextStyle(fontSize: 25),),
+                Text("R2", style: TextStyle(fontSize: 25),),
+                Text("R3", style: TextStyle(fontSize: 25),),
+                Text("R4", style: TextStyle(fontSize: 25),),
+                Text("R5", style: TextStyle(fontSize: 25),),
+              ],
+            ),
             Text("A", style: TextStyle(fontSize: 25),),
             Text("B", style: TextStyle(fontSize: 25),),
             Text("C", style: TextStyle(fontSize: 25),),
