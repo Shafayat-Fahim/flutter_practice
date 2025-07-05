@@ -66,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         height: 100,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Text("A", style: TextStyle(fontSize: 25),),
             Text("B", style: TextStyle(fontSize: 25),),
