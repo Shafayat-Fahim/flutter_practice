@@ -64,9 +64,10 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("Flutter Practice"),
       ),
       body: Container(
-        width: 425,
+        width: 500,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text("A", style: TextStyle(fontSize: 25),),
             Text("B", style: TextStyle(fontSize: 25),),
