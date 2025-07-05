@@ -63,14 +63,12 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text("Flutter Practice"),
       ),
-      body: OutlinedButton(
-        child: Text("Click Here"),
-        onPressed: (){
-          print("Text Button Pressed!");
-        },
-        onLongPress: (){
-          print("LongPressed!!");
-        },
+      body: Center(
+        child: Container(
+          height: 100,
+          width: 100,
+          child: Image.asset("assets/images/flutter_logo.jpg"),
+        ),
       )
     );
   }
