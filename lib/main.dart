@@ -63,21 +63,37 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text("Flutter Practice"),
       ),
-      body: InkWell(
-        onTap: () {
-          print('Bangladesh Zindabad');
-        },
-        onLongPress: () {
-          print('Bangladesh Nationalist Party');
-        },
-        onDoubleTap: () {
-          print('No Corruption!');
-        },
-        child: Center(
-          child: Container(
-            width: 250,
-            height: 250,
-            color: Colors.lime,
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                margin: EdgeInsets.only(bottom: 11 ),
+                height: 200,
+                color: Colors.lightGreen,
+              ),
+              Container(
+                margin: EdgeInsets.only(bottom: 11 ),
+                height: 200,
+                color: Colors.lightGreen,
+              ),
+              Container(
+                margin: EdgeInsets.only(bottom: 11 ),
+                height: 200,
+                color: Colors.lightGreen,
+              ),
+              Container(
+                margin: EdgeInsets.only(bottom: 11 ),
+                height: 200,
+                color: Colors.lightGreen,
+              ),
+              Container(
+                margin: EdgeInsets.only(bottom: 11 ),
+                height: 200,
+                color: Colors.lightGreen,
+              )
+            ],
           ),
         ),
       )
