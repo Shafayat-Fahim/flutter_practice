@@ -68,10 +68,75 @@ class _MyHomePageState extends State<MyHomePage> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Container(
-                margin: EdgeInsets.only(bottom: 11 ),
-                height: 200,
-                color: Colors.lightGreen,
+              Padding(
+                padding: const EdgeInsets.only(bottom: 11),
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11 ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(bottom: 11, right: 11  ),
+                        height: 200,
+                        width: 200,
+                        color: Colors.lightGreen,
+                      )
+                    ],
+                  ),
+                ),
               ),
               Container(
                 margin: EdgeInsets.only(bottom: 11 ),
